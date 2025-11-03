@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    min-height: 100vh;
+    background-size: contain;
+    background-position: center;
+   transition: background-image 2s ease-in-out;
+   display: flex;
+   align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    color: rgb(245, 165, 165);
+    background-color:rgba(67, 63, 63, 0.496);
+    border-radius: 2em;
+    padding: 4am 3am;
+
+}
+.title{
+    font-size: 3em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+hr {
+    width: 100%;
+    background-color:rgb(129, 112, 112);
+    height: 5px;
+    border-radius: 1em;
+    border: none;   
+    
+}
+.timer {
+    font-size: 10em;
+    font-weight: 700;
+}
+.button.wrapper {
+    display: flex;
+    gap:1em;
+} 
+button {
+font-size: 2em;
+font-weight: 800;
+letter-spacing: 1px;
+padding: 0.5en 1.5en;
+border-radius: 0.5em;
+border:none;
+color:rgb(255, 255, 255);
+cursor: pointer;
+transition: 0.2s ease-in-out;
+}
+button:hover {
+    transform: translateY(-10px);
+}
+#Inicio {
+ background-color: crimson;
+}
+#Pausa {
+    background-color: rgb(37, 37, 241);
+}
+#Reiniciar {
+    background-color: yellowgreen;
+}
